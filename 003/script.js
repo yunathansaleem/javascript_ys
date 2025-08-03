@@ -7,6 +7,14 @@
     5. Type checking: typeof, instanceof, Array.isArray()
 
     primitives:
+    - memory efficient, immutable
+    - stored directly in the variable
+    - passed by value
+    - cannot have properties or methods
+
+
+    - examples:
+
     - string: "hello", 'world', `template literal`
     - number: 42, 3.14, NaN, Infinity
     - boolean: true, false
@@ -19,6 +27,13 @@
     - -Infinity: represents negative infinity
 
     reference types:
+    - memory heavy, mutable
+    - stored as a reference to the memory location
+    - passed by reference
+    - can have properties and methods
+
+    - examples: 
+    
     - object: key-value pairs, e.g., { name: "Alice", age: 30 }
     - array: ordered list of values, e.g., [1, 2, 3]
     - function: callable objects, e.g., function() { return "Hello"; }
