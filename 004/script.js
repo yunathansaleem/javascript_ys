@@ -30,3 +30,8 @@ let comparisonResult = "5" == 5;
 console.log(comparisonResult); // true, because of type coercion
 // Example of explicit type conversion
 let explicitConversion = String(123);
+
+// .tofixed
+console.log(explicitConversion, typeof explicitConversion); // "123" 'string'
+// Example of coercion with null and undefined
+let nullValue = null;   
