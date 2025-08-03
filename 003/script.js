@@ -54,3 +54,7 @@ let obj = {
     isStudent: false
 };
 console.log(obj);
+
+// dates 
+let date = new Date();
+console.log(date);
