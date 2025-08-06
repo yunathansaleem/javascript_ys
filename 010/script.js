@@ -14,4 +14,4 @@ for (let n = 0; n < 5; n++) {
     }
     console.log(n);
 }
-// This will print numbers 0, 1, 3, and 4, skipping 2
+// This will print numbers 0, 1, 3, and 4, skipping 2 
